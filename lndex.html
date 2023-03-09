@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-     body{
-        background-color:lightblue;
-     }
-     .bacolor--blue {
-        background-color: aqua;
-     }
- </style>
+        body {
+            background-color:lawngreen;
+        }
+        .bgcolor--blue {
+            background-color: lightseagreen;
+        }
+    </style>
 </head>
 <body>
-    안녕하세요?
+    안녕하세요? 반갑습니다.
     <button class="btn_bg">배경색상변경</button>
     <script>
-         const btnBg = document.querySelector('.btn_bg');
-         btnBg.addEventListener('click',function () {
-         document.body.classList.toggle('bgcolor--blue');
-         })
+        const btnBg = document.querySelector('.btn_bg');
+        btnBg.addEventListener('click', function () {
+            document.body.classList.toggle( 'bgcolor--blue');
+        })
     </script>
 </body>
 </html>
